@@ -9,6 +9,10 @@ Live preview [here](https://zhenglinlei.github.io/PingPong.js/tutorial)
 ## Images
 
 ![Image1](./tutorial/image.png)
+![Image2](./tutorial/image2.png)
+
+Mobile devices
+![Image3](./tutorial/image3.png)
 
 
 
