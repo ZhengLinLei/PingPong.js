@@ -8,9 +8,9 @@ Live preview [here](https://zhenglinlei.github.io/PingPong.js/tutorial)
 
 ## Images
 
-![Image1](./src/image.png)
+![Image1](./tutorial/image.png)
 
-![Image2](./src/image2.png)
+![Image2](./tutorial/image2.png)
 
 
 ### Love this repo? Give us a star ⭐
