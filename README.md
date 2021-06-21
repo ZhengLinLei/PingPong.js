@@ -10,11 +10,10 @@ Live preview [here](https://zhenglinlei.github.io/PingPong.js/tutorial)
 
 ![Image1](./tutorial/image.png)
 
-![Image2](./tutorial/image2.png)
 
 
 ### Love this repo? Give us a star ⭐
 
 <a href="./">
-  <img src="https://img.shields.io/badge/Morse%20beep-Rate-blue">
+  <img src="https://img.shields.io/badge/PingPong.js-Rate-blue">
 </a>
