@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping Pong Preview - ZLL</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        @media screen and (max-width: 710px){
+            canvas{
+                transform: rotate(-90deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <canvas></canvas>
+
+    <script src="../src/PingPong.js"></script>
+    <script>
+        var pingpong = new PingPong(document.querySelector('canvas'), {
+            controls: ['keyboard', 'mouse', 'touch'], // ENABLE THE CONTROLS OPTIONS
+            ball: {
+                color: 'blue' // WANT A BLUE COLOR BALL
+            }
+        });
+
+        if(confirm('Ready?')){
+            pingpong.init();
+        }
+    </script>
+</body>
+</html>
