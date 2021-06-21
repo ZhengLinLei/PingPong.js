@@ -327,7 +327,7 @@ class PingPong{
     
     randomBot(){
         // IF TOUCH THE WALL CHANGE DIRECTION
-        if(this.computerOptions.y <= 0 || this.computerOptions.y >= this.canvas.height){
+        if(this.computerOptions.y <= 0 || (this.computerOptions.y + this.computerOptions.h) >= this.canvas.height){
             this.botVelocity = -this.botVelocity;
         }
 
